@@ -1,0 +1,11 @@
+README
+
+Thankfully this is an extremely basic piece of software to use
+
+Edit the rubhttpd.rb file and change the variable base_path to what you want to serve to the rest of the world on this server.
+
+When you are ready, start a screen or have another way of allowing the process to "background" itself and then run it with administrator priviledges so it starts up a TCPServer on port 80.
+
+You are good to go! Once you're ready for it to finish up, just kill the process.
+
+Questions? Toss me an email at john.mainz@live.com and I'll try and answer it as best I can

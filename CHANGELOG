@@ -1,0 +1,21 @@
+CHANGELOG
+
+0.0.1 - Initial Creation
+	  - Lots of things "hardcoded"
+	  - No response to some http headers
+	  - Could serve only html
+0.0.6 - Implemented HTTP HEAD request
+      - Unhardcoded things like version numbers and updated
+      - Changed mime-type handler - still need a better version I think
+      - Added in a 501 response for a HTTP POST request
+0.1.0 - Started working on using inifile gem
+	  - Added in logging via logger gem
+
+
+TODO:
+	  - Properly implement a POST request
+	  - Common Gateway Interface
+	  - "modularize" via inifile gem
+	  - allow for vhosts
+	  - Fully implement http1.1 protocol instead of this weird barebones system
+	  - Daemonization
